@@ -9,4 +9,16 @@ use Illuminate\Routing\Controller as BaseController;
 class Controller extends BaseController
 {
     use AuthorizesRequests, ValidatesRequests;
+
+    public function setSuccessMessage($message): void
+	{
+    	session()->flash('message',$message);
+    	session()->flash('type','success');
+	}
+
+	public function setErrorMessage($message): void
+	{
+		session()->flash('message',$message);
+		session()->flash('type','danger');
+	}
 }

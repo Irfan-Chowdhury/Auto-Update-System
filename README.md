@@ -13,22 +13,27 @@
             |-- ClientAutoUpdateController.php
             |-- DemoAutoUpdateController.php
             |-- DeveloperSectionController.php
-        |-- traits
-            |-- AutoUpdateTrait.php
-            |-- ENVFilePutContent.php
-            |-- JSONFileTrait.php
+    |-- Traits
+        |-- AutoUpdateTrait.php
+        |-- ENVFilePutContent.php
+        |-- JSONFileTrait.php
 |-- config 
     |-- auto_update.php
 |-- resources 
     |-- views
+        |-- bug_update
+            |-- index.blade.php
         |-- developer_section
             |-- bug_update_setting.blade.php
             |-- general.blade.php
             |-- index.blade.php
             |-- version_upgrade_setting.blade.php
-        |-- bug_update.blade.php
-        |-- dashboard.blade.php
-        |-- version_upgrade.blade.php
+        |-- includes
+            |-- session_message.blade.php
+        |-- version_upgrade
+            |-- index.blade.php
+        |-- dashboard.blade.php    
+        |-- layout.blade.php    
 |-- routes 
     |-- api.php
     |-- web.php

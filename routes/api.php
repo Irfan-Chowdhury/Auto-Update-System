@@ -1,7 +1,7 @@
 <?php
 
-use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\DemoAutoUpdateController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,6 +14,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
-    return $request->user();
-});
+Route::get('fetch-data-general', [DemoAutoUpdateController::class, 'fetchDataGeneral'])->name('fetch-data-general');
+Route::get('fetch-data-upgrade', [DemoAutoUpdateController::class, 'fetchDataForAutoUpgrade'])->name('data-read');
+Route::get('fetch-data-bugs', [DemoAutoUpdateController::class, 'fetchDataForBugs'])->name('fetch-data-bugs');
+
