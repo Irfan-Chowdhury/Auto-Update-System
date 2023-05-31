@@ -1,3 +1,5 @@
+/bootstrap
+/database
 /.phpunit.cache
 /node_modules
 /public/build
@@ -5,7 +7,6 @@
 /public/storage
 /storage/*.key
 /vendor
-/bootstrap
 .env
 .env.backup
 .env.production
