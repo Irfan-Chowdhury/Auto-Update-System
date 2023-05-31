@@ -1,5 +1,5 @@
-bootstrap
-database
+/bootstrap
+/database
 /.phpunit.cache
 /node_modules
 /public/build
