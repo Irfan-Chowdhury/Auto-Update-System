@@ -7,10 +7,10 @@
 
 
 # app
-/app/Console
-/app/Exceptions
-/app/Models
-/app/Providers
+/app/*
+!/app/Http/Controllers
+/app/Http/Controllers/middleware
+!/app/Traits
 
 
 /bootstrap
@@ -21,12 +21,8 @@
 !/config/auto_update.php
 
 
-# app/Http
-/app/Http/Middleware
-/app/Http/Kernel.php
-
-
-/app/public
+/database
+/public
 
 
 #resources
@@ -38,20 +34,28 @@
 !/routes/web.php
 !/routes/api.php
 
+
 /storage
 /tests
 /vendor
 
 
 
-
-/database
 /.phpunit.cache
 /node_modules
 /public/build
 /public/hot
 /public/storage
 /storage/*.key
+
+.editorconfig
+.gitattributes
+artisan
+composer.json
+composer.lock
+package.json
+phpunit.xml
+vite.config.js
 
 .env
 .env.backup
