@@ -23,6 +23,7 @@
 
 /database
 /public
+!/public/css/
 
 
 #resources
