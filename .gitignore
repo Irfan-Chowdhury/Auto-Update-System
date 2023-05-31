@@ -1,3 +1,9 @@
+/app/Console
+/app/Exceptions
+/app/Models
+/app/Providers
+/app/Traits
+
 /bootstrap
 /database
 /.phpunit.cache
