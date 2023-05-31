@@ -1,8 +1,24 @@
+# app
 /app/Console
 /app/Exceptions
 /app/Models
 /app/Providers
-/app/Traits
+
+# app/Http
+/app/Http/Middleware
+/app/Http/Kernel.php
+
+
+# config
+/config/*
+!config/auto_update.php
+
+# git rm -r --cached app/Console; git rm -r --cached app/Exceptions; git rm -r --cached app/Models; git rm -r --cached app/Providers;
+# git commit -m "Remove bootstrap and database folders from Git tracking"
+# git push origin main
+
+
+
 
 /bootstrap
 /database
