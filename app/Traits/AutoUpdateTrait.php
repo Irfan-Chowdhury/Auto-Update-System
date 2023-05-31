@@ -3,7 +3,6 @@ namespace App\Traits;
 
 trait AutoUpdateTrait{
 
-    // 17.05.2023
     protected function isServerConnectionOk()
     {
         $ch = curl_init(config('auto_update.demo_url').'/fetch-data-general');
@@ -14,11 +13,10 @@ trait AutoUpdateTrait{
         $response = curl_exec($ch);
         $error = curl_error($ch);
         curl_close($ch);
-        if ($error) {
-            return false;
-        } else {
-            return true;
-        }
+
+        $result = json_decode($response);
+
+        return isset($result) && !empty($result) ? true : false ;
     }
 
     protected function getDemoGeneralDataByCURL()
@@ -53,7 +51,6 @@ trait AutoUpdateTrait{
 
     public function general()
     {
-        // 17.05.2023
         $returnData = [];
         $alertVersionUpgradeEnable = false;
         $alertBugEnable = false;
@@ -64,7 +61,6 @@ trait AutoUpdateTrait{
             $returnData['alertBugEnable'] = $alertBugEnable;
             return $returnData;
         };
-        // 17.05.2023
 
         $data = $this->getDemoGeneralDataByCURL();
         $productMode = $data->general->product_mode;

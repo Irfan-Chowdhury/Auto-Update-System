@@ -3,7 +3,7 @@
         <h4 class="card-header p-3"><b>@lang('file.Bug Setting')</b></h4>
         <hr>
         <div class="card-body">
-            <form action="{{ route('admin.bug-update-setting.submit') }}" method="POST">
+            <form action="{{ route('bug-update-setting.submit') }}" method="POST">
                 @csrf
 
                 <!----------------------------------- Files ------------------------------------------>

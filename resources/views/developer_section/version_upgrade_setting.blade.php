@@ -3,7 +3,7 @@
         <h4 class="card-header p-3"><b>@lang('file.Version Upgrade Setting')</b></h4>
         <hr>
         <div class="card-body">
-            <form action="{{ route('admin.version-upgrade-setting.submit') }}" method="POST">
+            <form action="{{ route('version-upgrade-setting.submit') }}" method="POST">
                 @csrf
 
                 <!----------------------------------- Files ------------------------------------------>

@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\DeveloperSectionController;
 use App\Http\Controllers\ClientAutoUpdateController;
+use App\Http\Controllers\DashboardController;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,17 +20,15 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
 
-Route::get('/dashboard', function () {
-    return view('dashboard');
-});
 
 // Auto Update
 Route::group(['prefix' => 'developer-section'], function () {
-    Route::get('/', [DeveloperSectionController::class, 'index'])->name('admin.developer-section.index');
-    Route::post('/', [DeveloperSectionController::class, 'submit'])->name('admin.developer-section.submit');
-    Route::post('/bug-update-setting', [DeveloperSectionController::class, 'bugUpdateSetting'])->name('admin.bug-update-setting.submit');
-    Route::post('/version-upgrade-setting', [DeveloperSectionController::class, 'versionUpgradeSetting'])->name('admin.version-upgrade-setting.submit');
+    Route::get('/', [DeveloperSectionController::class, 'index'])->name('developer-section.index');
+    Route::post('/', [DeveloperSectionController::class, 'submit'])->name('developer-section.submit');
+    Route::post('/bug-update-setting', [DeveloperSectionController::class, 'bugUpdateSetting'])->name('bug-update-setting.submit');
+    Route::post('/version-upgrade-setting', [DeveloperSectionController::class, 'versionUpgradeSetting'])->name('version-upgrade-setting.submit');
 });
 
 Route::get('/new-release', [ClientAutoUpdateController::class, 'newVersionReleasePage'])->name('new-release');

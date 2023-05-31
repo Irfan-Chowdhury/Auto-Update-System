@@ -3,7 +3,7 @@
                         <h4 class="card-header p-3"><b>@lang('file.General Setting')</b></h4>
                         <hr>
                         <div class="card-body">
-                            <form action="{{ route('admin.developer-section.submit') }}" method="POST">
+                            <form action="{{ route('developer-section.submit') }}" method="POST">
                                 @csrf
 
                                 <h5><b>@lang('General')</b></h5>
