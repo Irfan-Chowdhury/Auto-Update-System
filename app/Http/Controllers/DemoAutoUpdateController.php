@@ -4,7 +4,6 @@ namespace App\Http\Controllers;
 
 use App\Traits\ENVFilePutContent;
 use App\Traits\JSONFileTrait;
-use Illuminate\Http\Request;
 use Illuminate\Support\Facades\File;
 
 class DemoAutoUpdateController extends Controller
