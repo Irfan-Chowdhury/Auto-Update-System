@@ -34,8 +34,12 @@
 !/resources/views
 
 
-/app/storage
-/app/tests
+/routes/*
+!/routes/web.php
+!/routes/api.php
+
+/storage
+/tests
 /vendor
 
 
