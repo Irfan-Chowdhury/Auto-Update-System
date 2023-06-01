@@ -6,57 +6,61 @@
 # git push origin main
 
 
-# app
-/app/*
+/*
 !/app/Http/Controllers
-/app/Http/Controllers/middleware
 !/app/Traits
 
+# app
+# /app/*
+# !/app/Http/Controllers
+# /app/Http/Controllers/middleware
+# !/app/Traits
 
-/bootstrap
+
+# /bootstrap
 
 
 # config
-/config/*
-!/config/auto_update.php
+# /config/*
+# !/config/auto_update.php
 
 
-/database
-/public
-!/public/css
+# /database
+# /public
+# !/public/css
 
 
 #resources
-/resources/*
-!/resources/views
+# /resources/*
+# !/resources/views
 
 
-/routes/*
-!/routes/web.php
-!/routes/api.php
+# /routes/*
+# !/routes/web.php
+# !/routes/api.php
 
 
-/storage
-/tests
-/vendor
+# /storage
+# /tests
+# /vendor
 
 
 
-/.phpunit.cache
-/node_modules
-/public/build
-/public/hot
-/public/storage
-/storage/*.key
+# /.phpunit.cache
+# /node_modules
+# /public/build
+# /public/hot
+# /public/storage
+# /storage/*.key
 
-.editorconfig
-.gitattributes
-artisan
-composer.json
-composer.lock
-package.json
-phpunit.xml
-vite.config.js
+# .editorconfig
+# .gitattributes
+# artisan
+# composer.json
+# composer.lock
+# package.json
+# phpunit.xml
+# vite.config.js
 
 .env
 .env.backup
