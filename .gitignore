@@ -1,5 +1,5 @@
 # git rm -r --cached config/*
-# git add -f config/auto_update.php
+# git add -f config/auto_update.php [Use -f if you really want to add them.]
 
 # git rm -r --cached app/Console; git rm -r --cached app/Exceptions; git rm -r --cached app/Models; git rm -r --cached app/Providers;
 # git commit -m "Remove bootstrap and database folders from Git tracking"
@@ -9,6 +9,19 @@
 /*
 !/app/Http/Controllers
 !/app/Traits
+
+!/config/auto_update.php
+!/public/css
+!/resources/views
+!/routes/web.php
+!/routes/api.php
+!/track
+!.env.example
+!.gitignore
+!README.md
+
+
+
 
 # app
 # /app/*

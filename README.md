@@ -43,5 +43,5 @@
     |-- fetch-data-upgrade.json
     |-- general.json
     |-- sample.json
-|-- .env 
+|-- .env.example 
 ```
