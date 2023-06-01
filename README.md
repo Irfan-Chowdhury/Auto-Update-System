@@ -9,11 +9,8 @@
 - PHP-8.1
 - Laravel-10
 
-<br>
 
-### File Structure 
-
-<br>
+### File Structure
 
 ```
 |-- app 
@@ -61,7 +58,6 @@
 - PRODUCT_MODE=DEMO (or DEVELOPER or CLIENT)
 - VERSION=1.2.1
 - BUG_NO=1210 
-<br>
 
 <i><b>Important Note for PRODUCT_MODE : </b></i> <br>
 - <b>DEVELOPER</b> : To access for developers.
@@ -75,12 +71,10 @@
     <h2>Developer Section</h2>
 </div>
 
-<br>
 
 ### General Setting 
 - Goto the url to access: [your_domain_name.com/developer-section]()
 - Product mode should be <b>DEVELOPER</b> 
-<br>
 - <b>Latest Version Upgrade</b> : You have to enable this when a new version will be released so that old clients get notification and can update.
 - <b>Latest Version DB Migrate</b> : If need to DB migrate, then you have to enable this also. 
 - <b>Version Upgrade URL :</b>  In your server, you have to create a directory and all necessary files have to import there so that the files from here can transfer into client server.
