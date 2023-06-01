@@ -21,6 +21,19 @@
 !README.md
 
 
+# One Command
+# git add -f app/Http/Controllers;
+# git add -f app/Traits;
+# git add -f config/auto_update.php;
+# git add -f public/css;
+# git add -f resources/views;
+# git add -f routes/web.php;
+# git add -f routes/api.php;
+# git add -f track;
+# git add -f .env.example;
+# git add -f .gitignore;
+# git add -f .README.md;
+
 
 
 # app
