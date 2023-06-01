@@ -45,3 +45,10 @@
     |-- sample.json
 |-- .env.example 
 ```
+
+
+<h1 align="center">
+    Project Details
+</h1>
+
+![General Section](https://snipboard.io/dyGhb5.jpg)

@@ -32,7 +32,7 @@
 # git add -f track;
 # git add -f .env.example;
 # git add -f .gitignore;
-# git add -f .README.md;
+# git add -f README.md;
 
 
 

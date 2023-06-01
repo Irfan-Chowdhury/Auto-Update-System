@@ -14,8 +14,8 @@
                     <div class="card-body">
                         <div class="list-group" id="list-tab" role="tablist">
                             <a class="list-group-item list-group-item-action active" id="general-setting" data-toggle="list" href="#generalSetting" role="tab" aria-controls="home">@lang('file.General Setting')</a>
-                            <a class="list-group-item list-group-item-action" id="bug-update-setting" data-toggle="list" href="#bugUpdateSetting" role="tab" aria-controls="home">@lang('file.Bug Update Setting')</a>
                             <a class="list-group-item list-group-item-action" id="version-upgrade-setting" data-toggle="list" href="#versionUpgradeSetting" role="tab" aria-controls="home">@lang('file.Version Upgrade Setting')</a>
+                            <a class="list-group-item list-group-item-action" id="bug-update-setting" data-toggle="list" href="#bugUpdateSetting" role="tab" aria-controls="home">@lang('file.Bug Update Setting')</a>
                         </div>
                     </div>
                 </div>
