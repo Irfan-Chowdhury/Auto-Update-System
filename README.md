@@ -113,7 +113,7 @@ BUG_NO=1210
 </div>
 
 
-### Client Dashboard
+### Client Dashboard (if version upgrade related)
 - Goto the url to access: [your_domain_name.com/dashboard]()
 - If any new version release, then client will get a notification message in dashboard. They have to click on <b><i>Click Here</i></b> option to see the details page. 
 
@@ -134,4 +134,24 @@ BUG_NO=1210
 
 ![Version Upgrade Error](https://snipboard.io/7W46AY.jpg)
 
+
+### Client Dashboard (if bug update related)
+- Goto the url to access: [your_domain_name.com/dashboard]()
+- If any bug found, then client will get a alert notification message in dashboard. They have to click on <b><i>Click Here</i></b> option to see the details page. 
+
+![Bug Update Setting](https://snipboard.io/wKyWc7.jpg)
+
+- Client will see change log details.
+
+![bug update Setting](https://snipboard.io/GNQIr3.jpg)
+
+
+- After clicking update button, it will update process automatically then will see a success message.
+
+![bug update page](https://snipboard.io/2kBIhW.jpg)
+
+<i><b>Some Challenge : </b></i> <br>
+- If any issues arise, then clients have to contact with the support team. 
+
+![Version Upgrade Error](https://snipboard.io/9LevBw.jpg)
 

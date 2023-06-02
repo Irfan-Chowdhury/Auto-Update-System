@@ -1,9 +1,7 @@
-@extends('layout.main')
+@extends('layout')
 @section('title','Admin | Bugs')
 @section('content')
 
-
-    <div class="mt-3 mb-3" id="errorMessage"></div>
 
     @include('includes.session_message')
 
