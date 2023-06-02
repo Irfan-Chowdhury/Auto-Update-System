@@ -55,9 +55,11 @@
 <br>
 
 ### Environement Variable (.ENV) Setting
-- PRODUCT_MODE=DEMO (or DEVELOPER or CLIENT)
-- VERSION=1.2.1
-- BUG_NO=1210 
+```
+PRODUCT_MODE=DEMO (or DEVELOPER or CLIENT)
+VERSION=1.2.1
+BUG_NO=1210 
+```
 
 <i><b>Important Note for PRODUCT_MODE : </b></i> <br>
 - <b>DEVELOPER</b> : To access for developers.
@@ -84,3 +86,18 @@
 
 
 ![General Section](https://snipboard.io/XSRbpG.jpg)
+
+
+### Version Upgrade Setting
+- In <b>Files</b> section you have to input file name which file you want to transfer from your main server to client server.
+- In <b>Logs</b> section clients can see the change log details.
+
+![Version Upgrade Setting](https://snipboard.io/a0b3uU.jpg)
+
+### Bug Update Setting
+
+- Similar as like <b>Version Upgrade Setting</b>.
+
+
+![Version Upgrade Setting](https://snipboard.io/LreHJY.jpg)
+
