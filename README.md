@@ -54,6 +54,11 @@
 
 <br>
 
+### config/auto_update.php
+![auto_update.php](https://snipboard.io/OuNIDK.jpg)
+
+<br>
+
 ### Environement Variable (.ENV) Setting
 ```
 PRODUCT_MODE=DEMO (or DEVELOPER or CLIENT)
@@ -100,4 +105,33 @@ BUG_NO=1210
 
 
 ![Version Upgrade Setting](https://snipboard.io/LreHJY.jpg)
+
+<br>
+
+<div align="center">
+    <h2>Client Section</h2>
+</div>
+
+
+### Client Dashboard
+- Goto the url to access: [your_domain_name.com/dashboard]()
+- If any new version release, then client will get a notification message in dashboard. They have to click on <b><i>Click Here</i></b> option to see the details page. 
+
+![Version Upgrade Setting](https://snipboard.io/dxfblN.jpg)
+
+### Version Upgrade Page
+
+- Client will see all details such version number, note and change log details.
+
+![Version Upgrade Setting](https://snipboard.io/pJWYKa.jpg)
+
+- After clicking Upgrade button, it will upgrade process automatically then will see a success message and new version number will setup in your application automatically.
+
+![Version Upgrade page](https://snipboard.io/VDHoXi.jpg)
+
+<i><b>Some Challenge : </b></i> <br>
+- If any issues arise, then clients have to contact with the support team. 
+
+![Version Upgrade Error](https://snipboard.io/7W46AY.jpg)
+
 
