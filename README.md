@@ -95,6 +95,7 @@ BUG_NO=1210
 
 <div align="center">
     <h2>Developer Section</h2>
+    <p>(This section will be disabled for the clients)</p>
 </div>
 
 
