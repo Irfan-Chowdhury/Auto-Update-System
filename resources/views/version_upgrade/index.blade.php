@@ -2,8 +2,6 @@
 @section('title','Admin | New Release Version')
 @section('content')
 
-    <div class="mt-3 mb-3" id="errorMessage"></div>
-
     @include('includes.session_message')
 
 
@@ -26,6 +24,14 @@
                     <p>Before upgrading, we highly recomended you to keep a backup of your current script and database.</p>
                 </div>
             </div>
+
+            @isset($getVersionUpgradeDetails->short_note)
+                <div class="card mt-3">
+                    <div class="card-body">
+                        <h5 class="text-left text-danger"><b>Important Note : </b> {{ $getVersionUpgradeDetails->short_note }} </h5>
+                    </div>
+                </div>
+            @endisset
 
             <div class="card mt-3">
                 <div class="card-body">

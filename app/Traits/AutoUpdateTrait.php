@@ -73,9 +73,6 @@ trait AutoUpdateTrait{
         $latestVersionUpgradeEnable   = $data->general->latest_version_upgrade_enable;
         $bugUpdateEnable        = $data->general->bug_update_enable;
 
-        // $alertVersionUpgradeEnable = false;
-        // $alertBugEnable = false;
-
         if ($clientVersionNumber >= $minimumRequiredVersion && $latestVersionUpgradeEnable===true && $productMode==='DEMO' && $demoVersionNumber > $clientVersionNumber) {
             $alertVersionUpgradeEnable = true;
         }

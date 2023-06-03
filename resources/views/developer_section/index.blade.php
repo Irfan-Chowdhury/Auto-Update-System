@@ -28,11 +28,11 @@
                 <!--General Setting-->
                 @include('developer_section.general')
 
-                <!-- Bug Setting -->
-                @include('developer_section.bug_update_setting')
-
                 <!-- Version Upgrade Setting -->
                 @include('developer_section.version_upgrade_setting')
+                
+                <!-- Bug Setting -->
+                @include('developer_section.bug_update_setting')
             </div>
         </div>
     </div>

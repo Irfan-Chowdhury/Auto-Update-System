@@ -80,6 +80,20 @@
                     </div>
                 </div>
 
+                <!----------------------------------- Important Note ------------------------------------------>
+                <hr>
+                <h5><b>@lang('file.Short Note')</b></h5>
+                <hr>
+                <div class="form-group row">
+                    <div class="col-md-12">
+                        @if (isset($versionUpgradeSettings->short_note))
+                            <textarea name="short_note" class="form-control" rows="5">{{ $versionUpgradeSettings->short_note }}</textarea>
+                        @else
+                            <textarea name="short_note" class="form-control" rows="5"></textarea>
+                        @endif
+                    </div>
+                </div>
+
                 <div class="form-group row">
                     <button type="submit" class="btn btn-primary btn-lg btn-block">@lang('file.Submit')</button>
                 </div>

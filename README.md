@@ -5,10 +5,9 @@
 
 <br>
 
-### Configuration
-- PHP-8.1
-- Laravel-10
-
+### Minimum Requirements
+- PHP Version >= 7.4
+- Laravel Version >= 8
 
 ### File Structure
 
@@ -66,11 +65,31 @@ VERSION=1.2.1
 BUG_NO=1210 
 ```
 
-<i><b>Important Note for PRODUCT_MODE : </b></i> <br>
+### <i><b>Important Notes  </b></i> <br>
+
+#### (i) PRODUCT_MODE :
 - <b>DEVELOPER</b> : To access for developers.
 - <b>CLIENT</b> : For production I mean when the clients use your application and they can get notification and update.
 - <b>DEMO</b> : Client's product have to connect with a main server to transfer files and others from main server to client server. So there should be a primary server for this original products of a comapany/organization/personal. 
 - If you want you can customize the attributes.
+
+#### (ii) For Version Upgrade - you should follow these point for DEMO :
+
+- Client Version Number >= Minimum Required Version
+- In general setting, Latest Version Upgrade should be <b><i>Checked</i></b>
+- Product Mode  have to set <b><i>DEMO</i></b>
+- Demo Version Number > Client Version Number
+
+#### (iii) For Bug Update - you should follow  these point in DEMO :
+
+- Client Version Number >= Minimum Required Version
+- Demo Version Number === Client Version Number
+- Demo Bug Number > Client Bug Number
+- In general setting, bug update should be <b><i>Checked</i></b>
+- Product Mode have to set <b><i>DEMO</i></b>
+
+
+
 
 <br>
 
@@ -96,15 +115,16 @@ BUG_NO=1210
 ### Version Upgrade Setting
 - In <b>Files</b> section you have to input file name which file you want to transfer from your main server to client server.
 - In <b>Logs</b> section clients can see the change log details.
+- In <b>Short Note</b> section, you can set a important note for the clients if need.
 
-![Version Upgrade Setting](https://snipboard.io/a0b3uU.jpg)
+![Version Upgrade Setting](https://snipboard.io/i1tBSJ.jpg)
 
 ### Bug Update Setting
 
 - Similar as like <b>Version Upgrade Setting</b>.
 
 
-![Version Upgrade Setting](https://snipboard.io/LreHJY.jpg)
+![bug Upgrade Setting](https://snipboard.io/jCdwKe.jpg)
 
 <br>
 
@@ -117,13 +137,13 @@ BUG_NO=1210
 - Goto the url to access: [your_domain_name.com/dashboard]()
 - If any new version release, then client will get a notification message in dashboard. They have to click on <b><i>Click Here</i></b> option to see the details page. 
 
-![Version Upgrade Setting](https://snipboard.io/dxfblN.jpg)
+![Version Upgrade Notification](https://snipboard.io/dxfblN.jpg)
 
 ### Version Upgrade Page
 
 - Client will see all details such version number, note and change log details.
 
-![Version Upgrade Setting](https://snipboard.io/pJWYKa.jpg)
+![Version Upgrade Page](https://snipboard.io/W5HBkf.jpg)
 
 - After clicking Upgrade button, it will upgrade process automatically then will see a success message and new version number will setup in your application automatically.
 
@@ -141,9 +161,9 @@ BUG_NO=1210
 
 ![Bug Update Setting](https://snipboard.io/wKyWc7.jpg)
 
-- Client will see change log details.
+- Client will see change log and  short note (if needed) details.
 
-![bug update Setting](https://snipboard.io/GNQIr3.jpg)
+![bug update Page](https://snipboard.io/Blwio7.jpg)
 
 
 - After clicking update button, it will update process automatically then will see a success message.

@@ -99,6 +99,10 @@ class DeveloperSectionController extends Controller
             }
         }
 
+        if ($request->short_note) {
+            $data['short_note'] = $request->short_note;
+        }
+
         return $data;
     }
 

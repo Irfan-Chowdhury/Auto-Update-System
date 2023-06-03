@@ -28,6 +28,14 @@
                 </div>
             </div>
 
+            @isset($getBugUpdateDetails->short_note)
+                <div class="card mt-3">
+                    <div class="card-body">
+                        <h5 class="text-left text-danger"><b>Important Note : </b> {{ $getBugUpdateDetails->short_note }} </h5>
+                    </div>
+                </div>
+            @endisset
+
             <div id="changeLog" class="card mt-3">
                 <div class="card-body">
                     <h4 class="text-left p-4">Change Log</h4>
