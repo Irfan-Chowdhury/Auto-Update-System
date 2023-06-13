@@ -20,8 +20,8 @@
         <section id="newVersionSection" class="container mt-5 text-center">
             <div class="card">
                 <div class="card-body">
-                    <h4 class="text-center text-success"> A new version <b>{{ $newVersion }}</b> has been released.</h4>
-                    <p>Before upgrading, we highly recomended you to keep a backup of your current script and database.</p>
+                    <h4 class="text-center text-success"> Version <b>{{ $newVersion }}</b> has been released.</h4>
+                    <p>Before upgrading, we highly recomend to you that keep a backup of your current script and database.</p>
                 </div>
             </div>
 

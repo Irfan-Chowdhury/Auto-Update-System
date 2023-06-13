@@ -5,6 +5,11 @@
 
 <br>
 
+### About
+Imagine you have an application that already has numerous clients using it on their server. Now, you want to add a new feature and release it as a new version. Alternatively, you might encounter a bug and fix it. In both scenarios, you need a system that notifies your existing clients to upgrade their current app to the new version or update the bug, similar to how platforms like WordPress, Code Editors, and Operating Systems handle it. By integrating this feature, you can achieve your desired outcome.
+
+
+
 ### Minimum Requirements
 - PHP Version >= 7.4
 - Laravel Version >= 8
